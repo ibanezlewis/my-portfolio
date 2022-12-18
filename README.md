@@ -22,9 +22,9 @@ To setup this repository, simply download the files top your local machine and u
 
 The image below shows the intended layout of the mock landing page:
 
-![Intended landing page screenshot](https://github.com/ibanezlewis/accessibility-challenge/blob/main/assets/images/intended-landing-page-screenshot.png)
+![Intended landing page screenshot](https://github.com/ibanezlewis/my-portfolio/blob/main/assets/images/screenshot.png)
 
-You can [view the example landing page here](https://ibanezlewis.github.io/accessibility-challenge/).
+You can [view the landing page here](https://ibanezlewis.github.io/my-portfolio/).
 
 Not all links currently function, however will be added to as time progresses.
 
