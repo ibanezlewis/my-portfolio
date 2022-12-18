@@ -1,45 +1,94 @@
-<!-- The DOCTYPE specifies what the browser should expect; ie - this is an HTML file -->
 <!DOCTYPE html>
+<html lang="en-gb">
 
-<!-- The html lang tag tells the browser what language the page is written in -->
-<html lang="en">
-
-<!-- The head contains key information that makes up the fabric of the page -->
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Lewis Murray's Student Bio</title>
-	<link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lewis Murray | Web Developer</title>
+  <meta name="Description" content="Lewis Murray is based in Bournemouth and is a senior marketeer, wedding photographer and is learning to become a front-end developer.">
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <header>
-	    <h1>Student Bio</h1>
-    </header>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Lewis Murray</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
+  </header>
 
-    <div class="container">
-
-        <section id="main-bio">
-
-            <h2>Lewis Murray</h2>
-
-            <img id="bio-image" src="/images/lewis-murray.jpeg" alt="Lewis Murray"/>
-
-            <p>I'm a digital marketeer and freelance wedding photographer who is currently learning to code!</p>
-        </section>
-
-        <section id="contact-info">
-            <h2>Contact Information</h2>
-            <ul>
-                <li>Email: <a href="mailto:hello@lewismurray.co.uk">hello@lewismurray.co.uk</a></li>
-                <li>Github: <a href="https://github.com/ibanezlewis" target="_blank">My Github Profile</a></li>
-                <li>Portfolio: <strong>Coming Soon!</strong></li>
-            </ul>
-        </section>
+  <!-- hero banner -->
+  <section class="hero-banner">
+      <image class="profile" src="./assets/images/lewis-murray.jpeg"></image>
+    <div class="heading">
+      <h2>Learn about me!</h2>
     </div>
+  </section>
 
-	<script src="script.js"></script>
+  <main class="page-wrapper">
+  <!-- about me -->
+  <section class="page-section" id="about">
+    <h2>About Me</h2>
+    <div class="about-text">
+      <p>Stuff about me and why I do stuff!</p>
+      <p>Another paragraph about why I do other stuff!</p>
+    </div>
+  </section>
+
+  <!-- portfolio container -->
+  <section class="page-section" id="work">
+    <h2>Work</h2>
+    <div class="flex-container">
+    <a href="https://ibanezlewis.github.io/accessibility-challenge/" target="_blank" class="flex-item developer">
+      <div>
+        <h1>Developer Experience</h1>
+        <span>HTML + CSS</span>
+      </div>
+    </a>
+    <a href="#" class="flex-item photography">
+      <div>
+        <h1>Photography Experience</h1>
+        <span>Wedding Photography</span>
+      </div>
+      </a>
+    <a href="#" class="flex-item marketing">
+      <div>
+        <h1>Marketing Experience</h1>
+        <span>SEO</span>
+      </div>
+    </a>
+    <a href="#" class="flex-item music">
+      <div>
+        <h1>Music Experience</h1>
+        <span>My music</span>
+      </div>
+    </a>
+    <a href="#" class="flex-item food">
+      <div>
+        <h1>Pizza Time</h1>
+        <span>Delicious pizza</span>
+      </div>
+    </a>
+  </div>
+  </section>
+
+  <!-- contact -->
+  <section class="page-section contact" id="contact">
+  <h2>Contact Me</h2>
+  <div>
+    <address>
+      <a href="tel:+447794668015">07794668015</a>
+      <a href="mailto:hello@lewismurray.co.uk">hello@lewismurray.co.uk</a>
+      <a href="https://github.com/ibanezlewis/">Github</a>
+      <a href="https://www.instagram.com/lewismurrayphotography/">Instagram</a>
+      <a href="https://lewismurray.co.uk/">My Photography Website</a>
+    </address>
+  </div>
+  </section>
 </body>
 
 </html>
